@@ -1,0 +1,54 @@
+.box{
+    height: 80px;
+    display: flex;
+    width: 80px;
+    background-color: aqua;
+   
+    color: white;
+    margin: 1px;
+    align-items: center;
+    
+    justify-content: center;
+   border-radius: 7px;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#board{
+    width: 246px;
+    height: 246px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+body{
+    box-sizing: border-box;
+    margin: 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#player-toggler{
+    background-color: #d5e5d5;
+    width: 10em;
+    height: 1em;
+    padding: 1em;
+    margin-bottom: 10px;
+}
+.players{
+    font-size: 1rem;
+    font-family:sans-serif;
+    padding: 8px;
+    display: flex;
+    background-color: indianred;
+    justify-content: space-between
+}
+#acclamation{
+    font-size: 2em;
+    font-family: sans-serif;
+    transition: 1s ease-in;
+    
+}
